@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Footer</title>
+    <style>
+        /* Main container for footer */
+        .footer-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #f0f4f8;
+            color: #333;
+            font-family: Arial, sans-serif;
+            border-top: 2px solid #ddd;
+            margin-top: 20px;
+        }
+
+        /* Heading styling */
+        .footer-container p {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        /* Container for social icons */
+        .social-links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        /* Style for each social link */
+        .social {
+            padding: 12px 20px;
+            background-color: #5cbfa6;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Hover effect */
+        .social:hover {
+            background-color: #4ca18e;
+            transform: translateY(-3px);
+        }
+
+        /* Responsive text resizing */
+        @media (max-width: 768px) {
+            .social {
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="footer-container">
+        <p>Contact through</p>
+        <div class="social-links">
+            <div class="social">
+                <img src="https://img.icons8.com/ios-filled/24/ffffff/instagram-new.png" alt="Instagram Icon">
+                Instagram
+            </div>
+            <div class="social">
+                <img src="https://img.icons8.com/ios-filled/24/ffffff/twitter--v1.png" alt="Twitter Icon">
+                X
+            </div>
+            <div class="social">
+                <img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin.png" alt="LinkedIn Icon">
+                LinkedIn
+            </div>
+        </div>
+    </div>
+</body>
+</html>

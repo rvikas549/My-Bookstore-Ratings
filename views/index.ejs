@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../styles/main.css" rel="stylesheet">
+</head>
+<body>
+    <%- include("header.ejs") %>
+
+    <div class="box">
+        <div class="list">
+            <% List.forEach(book => { %>
+                <div class="book-item">
+                   <h2 class="same"><%= book.title %> -- <b> <%= book.ratings %></b></h2>
+                   <% if (book.img) { %>
+                    <img src="<%= book.img %>" alt="Image" style="max-width: 100%; height: auto;">
+                    <% } else { %>
+                    <p>No image available</p>
+                    <% } %>
+                   <!--This Edit does not work due to no edit input form which should hide
+                        the h2 booktitle and bookratings -->  
+                    <form class="same" action="/delete" method="post">
+                        <button name="deletebook" value= "<%= book.id %>" type="submit">Delete</button>  
+                    </form>
+             
+                    <form class="edit-form" action="/edit" method="post" style="display:none;">
+                        <input type="hidden" name="editId" value="<%= book.id %>">
+                        <input type="text" name="editTitle" value="<%= book.title %>" required>
+                        <input type="number" name="editRating" value="<%= book.ratings %>" min="1" max="5" required>
+                        <button type="submit">Save</button>
+                    </form>
+                </div>
+                <%  });%> 
+        </div>
+    </div> 
+    
+    <div class="inpu">
+        <form class="form"  action="/add" method="post" enctype="multipart/form-data">
+            <input class="add" placeholder="Suggest your book" type="text" name="newbook" required>
+            <input class="add" placeholder="Ratings" type="text" name="newrating" required>
+            <input class="add" type="file" name="image" accept="image/*" placeholder="Add img less than 10kb" required>
+            <button class="plus" type="submit" >Add</button>
+        </form>
+    </div>
+              
+    
+    <%- include("footer.ejs") %>
+</body>
+</html>
