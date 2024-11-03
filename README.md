@@ -1,9 +1,9 @@
 # My-Bookstore-Ratings
-Full Stack : Project 1 🥷🏻
+<h2>Full Stack : Project 1 🥷🏻</h2>
 
 -> This project involves about inserting image and storing it in Postgres Database. 
 
-Tools Used:<br>
+<h4>Tools Used:<br></h4>
 -Node<br>
 -Postgres Database in local computer<br>
 -Embedded JavaScript , CSS , Javascript to handle Server<br>
@@ -21,13 +21,14 @@ How to run -><br>
 
 The image will get converted into bytes and get stored in the database<br>
 To Create the Schema follow this steps:<br>
-
-CREATE TABLE booklist (<br>
-    id SERIAL PRIMARY KEY,<br>
-    title VARCHAR(50),<br>
-    ratings decimal(4,2),<br>
-    image_data BYTEA<br>
-);<br>
+<strong>
+    CREATE TABLE booklist (<br>
+        id SERIAL PRIMARY KEY,<br>
+        title VARCHAR(50),<br>
+        ratings decimal(4,2),<br>
+        image_data BYTEA<br>
+    );<br>
+</strong>
 <hr>
 
 Here is the image of Database<br>
