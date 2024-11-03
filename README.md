@@ -28,6 +28,7 @@ CREATE TABLE booklist (<br>
     ratings decimal(4,2),<br>
     image_data BYTEA<br>
 );<br>
+<hr>
 
 Here is the image of Database<br>
 <img src="images/Screenshot1.png" alt="database" width="300"/><br>
@@ -36,11 +37,11 @@ Here is the image of Database<br>
 
 
 Add ur favorite book with image and rating <br>
-Here is sample record of Database<br>
+Here is sample record of Bookstore<br>
 <img src="images/Screenshot2.png" alt="List of books" width="300"/><br>
 <img src="images/Screenshot3.png" alt="Add new book" width="300"/>
 
-
+<hr>
 *** Do upgrade this project and give a PULL REQUEST to contribute!!😁<br>
 I want this project to be more interactive and design I hope a Frontend Engineer will contribute to this Open project
 
