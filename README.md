@@ -29,8 +29,17 @@ CREATE TABLE booklist (
     image_data BYTEA
 );
 
+Here is the image of Database
+![Alt text](images/screenshot1.png)
+<img src="images/screenshot1.png" alt="database" width="500"/>
+
+
+
 
 Add ur favorite book with image and rating 
+Here is sample record of Database
+<img src="images/screenshot2.png" alt="List of books" width="500"/>
+<img src="images/screenshot3.png" alt="Add new book" width="500"/>
 
 
 *** Do upgrade this project and give a PULL REQUEST to contribute!!😁
