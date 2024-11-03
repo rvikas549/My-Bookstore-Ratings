@@ -30,16 +30,15 @@ CREATE TABLE booklist (
 );
 
 Here is the image of Database
-![Alt text](images/screenshot1.png)
-<img src="images/Screenshot1.png" alt="database" width="500"/>
+<img src="images/Screenshot1.png" alt="database" width="300"/>
 
 
 
 
 Add ur favorite book with image and rating 
 Here is sample record of Database
-<img src="images/Screenshot2.png" alt="List of books" width="500"/><br>
-<img src="images/Screenshot3.png" alt="Add new book" width="500"/>
+<img src="images/Screenshot2.png" alt="List of books" width="300"/><br>
+<img src="images/Screenshot3.png" alt="Add new book" width="300"/>
 
 
 *** Do upgrade this project and give a PULL REQUEST to contribute!!😁
