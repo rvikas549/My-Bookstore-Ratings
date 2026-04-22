@@ -15,7 +15,7 @@
 
 A guide to understanding how applications store images — from small personal projects to "Meta-scale" systems.
 
----
+
 
 ## 1. Storage Paradigms
 
@@ -40,7 +40,7 @@ Instead of putting the image in the database, you store the image file in a clou
 * Enables CDN caching
 * Cost-effective
 
----
+
 
 ### B. The "Binary" Approach (BLOB)
 
@@ -110,7 +110,7 @@ When choosing a method, ask:
 * What is the security level?
   → Does the image need the same permission logic as your database?
 
----
+
 
 * Use **cloud storage + URL** for almost everything
 * Use **BLOB** only for small or sensitive data
