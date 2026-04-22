@@ -122,7 +122,7 @@ When choosing a method, ask:
 
 
 
-How to run -><br>
+<h2>How to run this Project -></h2><br>
 1.git clone <url of this repository> ,in ur terminal<br>
 2.Change your directory of the file cd /..<br>
 3.npm i for installing packages<br>
